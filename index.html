@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Zadanie 1</title>
+<!--   Google fonts-->
+   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+<!--   style.css-->
+   <link rel="stylesheet" href="css/style.css">
+<!--   script.js-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="js/script.js"></script>
+   <script src="js/ajax.js"></script>
+   
+</head>
+<body>
+  <header class="page-header">
+     <div class="col logo">
+        <img src="img/logo.png" alt="Pomarańczowe logo Smith's method">
+        <p><strong>John Smith’s</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+        <a href="#" target="_blank" class="button">Oficjalna strona twórcy >></a>
+     </div>
+     <div class="col form">
+        <h1>Odbierz zniżkę 80%</h1>
+        <p><span>Zostaw dane</span> i dowiedz się więcej o ofercie</p>
+        <form id="form" action="">
+           <label for="inputName"></label>
+           <input type="text" name="user-name" id="inputName" placeholder="Wpisz imię..." required>
+           <label for="inputEmail"></label>
+           <input type="email" name="user-email" id="inputEmail" placeholder="Wpisz e-mail..." required>
+           <label for="inputPhoneNumber"></label>
+           <input type="tel" name="user-tel" id="inputPhoneNumber" placeholder="Wpisz numer telefonu..." pattern='\d{9}' required>
+           <input type="submit" value="Wyślij" id="submit">
+        </form>
+     </div>
+  </header>
+  <section class="icons-section">
+     <div class="items">
+        <div class="icon">
+           <img src="img/net.png" alt="">
+        </div>
+        <div class="text">
+           <p><strong>5 języków</strong>  do wyboru i inne lorem</p>
+        </div>
+     </div>
+     <div class="items">
+        <div class="icon">
+           <img src="img/hand.png" alt="">
+        </div>
+        <div class="text">
+           <p><strong>5 języków</strong>  do wyboru i inne lorem</p>
+        </div>
+     </div>
+     <div class="items">
+        <div class="icon">
+           <img src="img/clock.png" alt="">
+        </div>
+        <div class="text">
+           <p><strong>5 języków</strong>  do wyboru i inne lorem</p>
+        </div>
+     </div>
+  </section>
+  
+  <section class="slider-section">
+    <div class="content">
+     <a id="prev" ><img src="img/left-arrow.png" alt=""></a>
+     <a id="next" ><img src="img/right-arrow.png" alt=""></a>
+     
+     <div class="slider">
+        <img  src="img/slider.png">
+        <div class="slide-text">
+           <header><span>Marika Jóźwik</span> z Warszawy</header>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+        </div>
+     </div>
+
+     <div class="slider">
+        <img  src="img/slider1.png">
+        <div class="slide-text">
+           <header><span>Jan Kowalski</span> z Krakowa</header>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+        </div>
+     </div>
+
+     <div class="slider">
+        <img  src="img/slider.png">
+        <div class="slide-text">
+           <header><span>Monika Nowak</span> z Warszawy</header>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+        </div>
+     </div>
+     
+       <div class="slider">
+          <img  src="img/slider1.png">
+          <div class="slide-text">
+             <header><span>Jan Kowalski</span> z Krakowa</header>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+          </div>
+       </div>
+     
+      <svg id="circles"></svg>
+      
+     </div>
+  </section>
+      
+  <footer class="page-footer">
+     <a href="#"> Polityka prywatności</a> | <a href="#">Regulamin</a>
+     <p> © 2013-2018 John Smith’s. All rights reserved.</p>
+  </footer>
+   
+</body>
+</html>
